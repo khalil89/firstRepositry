@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+      ul1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000;
+      }
+      
+      li1 {
+        float: left;
+      }
+      
+      li1 a {
+        display: block;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li1 a:hover {
+        background-color: red;
+      }
+      </style>
+</head>
+<body>
+    <header>
+        
+        <div style="text-align: center ;">
+          <img  src="logo.png"  width="150px">
+        </div>
+      </header>
+      
+       <!-- Navbar de notre site. -->
+        <nav >
+         
+        <ul1>
+            <li1><a  href="#home">Acceuil</a></li1>
+            <li1><a href="#inscription">Inscrivez-vous</a></li1>
+            <li1><a href="#services">Nos Services</a></li1>
+            <li1><a href="#contact">Contactez-nous</a></li1>
+            <li1><a href="#gallery">Gallerie</a></li1>
+          </ul1>
+          
+          
+        </nav>
+      
+     
+    
+    <br>
+    <!-- Un formulaire de recherche est une autre façon de naviguer de
+            façon non‑linéaire dans un site. -->
+
+            <form>
+              <input type="search" name="q" placeholder="Rechercher">
+              <input type="submit" value="Lancer !">
+            </form>
+     <!--Sections-->
+<section id="home">
+    <h1  align="center"><u>Acceuil</u></h1>
+    <p>Nous formons la prochaine génération tech aux 
+      technologies les plus récentes et aux métiers du futur
+       pour les préparer au monde professionnel et renforcer leur employabilité.</p>
+       
+       <h2><font  face="georgia" color="red">Pourquoi notre méthodologie est efficace ?</font></h2>
+        
+       <h3>Accompagnement personnalisé</h3>
+       
+       <p>Chaque étudiant sera <mark>accompagné  par un instructeur <strong>de haut niveau.</strong></mark>
+        Nous croyons fermement qu'une formation efficace passe par une assistance humaine.</p>
+        
+        <h3>Un parcours orienté projets</h3>
+        <p>En plus de contenir un projet final, chaque parcours contient plusieurs projets et exercices
+           pratiques pour donner la possibilité à l'étudiant de tester et construire par lui même.</p>
+           
+           <h3>La communauté GOMYCODE</h3>
+           
+           <p>En rejoignant GOMYCODE vous aurez accès au support de toute une communauté
+              passionnée par le numérique pour vous motiver au quotidien.
+               Nous organisons aussi différents événements: hackathons, talks, panels… pour notre communauté.</p>
+               
+               <h3>Un contenu riche et interactif</h3>
+              
+               <p>Le contenu de nos parcours est élaboré avec les entreprises 
+                 partenaires de GOMYCODE. Il est orienté employabilité 
+                 et il est constamment mis à jour selon les demandes des recruteurs.</p>
+  </section>
+  <section id="inscription">
+    <h1 align="center"><u>Inscrivez-vous</u></h1>
+    <h3><i>L'un de nos conseillers vous contactera au plus vite.</i> </h3>
+    <form >
+      <div>
+        <p>Quel est votre sexe ?</p>
+          <input type="radio" name="gender" checked="true" value="male"> Homme
+          <input type="radio" name="gender" value="female"> Femme
+      </div>
+      <div >
+        <label >Nom: </label><br>
+        <input type="text"  required>
+      </div>
+      <div >
+        <label >Prénom: </label><br>
+        <input type="text"  required>
+      </div>
+      <div >
+        <label >Date de naissance: </label><br>
+        <input type="date" required>
+      </div>
+      <div >
+        <label >Numéro de téléphone: </label><br>
+        <input type="tel" min="8" max="20"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  required>
+      </div>
+      <div >
+        <label >E-mail: </label><br>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <br>
+      <div>
+          <label >Dans quel pays habitez-vous ?</label><br>
+          <select >
+              <option value="tunisie" checked="true">Tunisie Hackerspace</option>
+              <option value="france">France Hackerspace</option>
+              <option value="espagne">Espagne Hackerspace</option>
+              <option value="italie">Italie Hackerspace</option>
+              <option value="royaume-uni">Royaume-Uni Hackerspace</option>
+              <option value="canada">Canada Hackerspace</option>
+              <option value="etats-unis">États-Unis Hackerspace</option>
+              <option value="chine">Chine Hackerspace</option>
+              <option value="japon">Japon Hackerspace</option>
+          </select>
+        </div>
+        <br>
+      <div>
+          <label > Formation:</label><br>
+          <select >
+              <option value="full-stack" checked="true">Full-Stack Javascript BootCamp</option>
+              <option value="web">Web Development</option>
+              <option value="React">React.js</option>
+              <option value="Node">Node.js</option>
+              <option value="Python">Python</option>
+              <option value="AI">Artificial Intelligence</option>
+              <option value="BI">Business Intelligence</option>
+              <option value="Devops">Devops BootCamp</option>
+             
+          </select>
+        </div>
+        <br>
+          <div>
+            <label for="ameliorer">
+            Comment pensez-vous que je puisse améliorer mon site ?
+            </label>
+            <br />
+            
+            <textarea  rows="10" cols="50"> Comment je peux améliorer mon site ?! 
+            </textarea>       
+          </div>
+          <br>
+          <div >
+            <input type="submit" value="Soumettre →" style="border: 0;
+                                       line-height: 2.5;
+                                        padding: 0 20px;
+                                        font-size: 1rem;
+                                        text-align: center;
+                                        color: #fff;
+                                        text-shadow: 1px 1px 1px #000;
+                                        border-radius: 10px;
+                                        background-color: rgba(220, 0, 0, 1);
+                                        background-image: linear-gradient(to top left,
+                                              rgba(0, 0, 0, .2),
+                                              rgba(0, 0, 0, .2) 30%,
+                                              rgba(0, 0, 0, 0));
+                                        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),inset -2px -2px 3px rgba(0, 0, 0, .6);" >
+
+
+          </div>
+      
+   </form>
+  </section>
+  <section id="services">
+    <h1 align="center"> <u>Nos Services</u></h1>
+        <h2>Des programmes faits sur mesure !</h2>
+        <h3>Choisissez la formule qui vous convient et rejoignez-nous dès maintenant.</h3>
+        
+        <h4>Dans quel domaine souhaitez-vous vous former ?</h4>
+        <ul>
+          <li><a href="#data">Tous</a></li>
+          <li><a href="#data">DATA</a></li>
+          <li><a href="#web">WEB</a></li>
+          <li><a href="#design">Design</a></li>
+          <li><a href="#game">Game</a></li>
+          <li><a href="#marketing">Marketing</a></li>
+          <li><a href="#system">Système</a></li>
+          <li><a href="#securite">Sécurité</a></li>
+          <li><a href="#kids">Kids</a></li>
+        </ul>
+        <section id="data">
+          <h2>Deep Learning</h2>
+        <h3>Créez votre intelligence artificielle avec le Deep Learning</h3>
+        <div style="text-align: center ;">
+          <img  src="imgTest.png"  width="250px">
+        </div>
+        <p>Apprenez à construire, former et implémenter des réseaux de neurones connectés (Artificial neural networks,
+           Deep neural networks, convolutional neural networks). Avec ce programme, 
+          vous pouvez créer vos propres applications d’intelligence artificielle avec l’encadrement de l’équipe pédagogique de GOMYCODE.</p>
+          <ul>
+          <li>7 Chapitres</li>
+          <li>38 Exercices</li>
+          <li>7 Projets</li>
+          <li>5 One to one meetings</li>
+          <li>5 Workshops</li>
+          <li>Durée : 12 semaines</li>
+          <li>4 heures / semaine en présentiel</li>
+          <li>Apprenez sur notre plateforme 24/ 7</li>
+          <li>Disponible dans nos hackerspaces ou en ligne</li>
+
+          </ul>
+          <br>
+                    <input type="submit" value="S'inscrire au programme →" style="border: 0;
+                    line-height: 2.5;
+                    padding: 0 20px;
+                    font-size: 1rem;
+                    text-align: center;
+                    color: #fff;
+                    text-shadow: 1px 1px 1px #000;
+                    border-radius: 10px;
+                    background-color: rgba(220, 0, 0, 1);
+                    background-image: linear-gradient(to top left,
+                          rgba(0, 0, 0, .2),
+                          rgba(0, 0, 0, .2) 30%,
+                          rgba(0, 0, 0, 0));
+                    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),inset -2px -2px 3px rgba(0, 0, 0, .6);" >
+            <br>
+          <h2>Artificial Intelligence</h2>
+          <h3>Créez votre première intelligence artificielle</h3>
+          <div style="text-align: center ;">
+            <img  src="imgTest.png"  width="250px">
+          </div>
+         
+
+          <p>Apprenez à prétraiter et à visualiser vos données grâce aux librairies Matplotlib et Seaborn.
+            A travers ce programme, vous maîtriserez les bases de l’intelligence artificielle ainsi que les algorithmes
+             supervisés et non supervisés de machine learning afin de créer votre propre projet machine learning en exploitant
+             la librairie Scikit-Learn.</p>
+
+             <ul>
+              <li>6 Chapitres</li>
+              <li>81 Exercices</li>
+              <li>10 Projets</li>
+              <li>7 One to one meetings</li>
+              <li>7 Workshops</li>
+              <li>Durée : 12 semaines</li>
+              <li>4 heures / semaine en présentiel</li>
+              <li>Apprenez sur notre plateforme 24/ 7</li>
+              <li>Disponible dans nos hackerspaces ou en ligne</li>
+    
+              </ul>
+              <br>
+              <input type="submit" value="S'inscrire au programme →" style="border: 0;
+              line-height: 2.5;
+              padding: 0 20px;
+              font-size: 1rem;
+              text-align: center;
+              color: #fff;
+              text-shadow: 1px 1px 1px #000;
+              border-radius: 10px;
+              background-color: rgba(220, 0, 0, 1);
+              background-image: linear-gradient(to top left,
+                    rgba(0, 0, 0, .2),
+                    rgba(0, 0, 0, .2) 30%,
+                    rgba(0, 0, 0, 0));
+              box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),inset -2px -2px 3px rgba(0, 0, 0, .6);" >
+              <br>
+              <h2>Business Intelligence</h2>
+              <h3>Devenez consultant Business Intelligence Junior</h3>
+              <div style="text-align: center ;">
+                <img  src="imgTest.png"  width="250px">
+              </div>
+              <p>Apprenez à gérer des projets en Business Intelligence et à découvrir l'environnement de SQL server. 
+                Découvrez les techniques et les processus du Master Data Management et devenez consultant Business Intelligence Junior.</p>
+    
+                 <ul>
+                  <li>6 Chapitres</li>
+                  <li>32 Exercices</li>
+                  <li>6 Projets</li>
+                  <li>5 One to one meetings</li>
+                  <li>5 Workshops</li>
+                  <li>Durée : 12 semaines</li>
+                  <li>4 heures / semaine en présentiel</li>
+                  <li>Apprenez sur notre plateforme 24/ 7</li>
+                  <li>Disponible dans nos hackerspaces ou en ligne</li>
+        
+                  </ul>
+                  <br>
+                  <input type="submit" value="S'inscrire au programme →" style="border: 0;
+                  line-height: 2.5;
+                  padding: 0 20px;
+                  font-size: 1rem;
+                  text-align: center;
+                  color: #fff;
+                  text-shadow: 1px 1px 1px #000;
+                  border-radius: 10px;
+                  background-color: rgba(220, 0, 0, 1);
+                  background-image: linear-gradient(to top left,
+                        rgba(0, 0, 0, .2),
+                        rgba(0, 0, 0, .2) 30%,
+                        rgba(0, 0, 0, 0));
+                  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),inset -2px -2px 3px rgba(0, 0, 0, .6);" >
+                  <br>
+
+
+
+
+
+
+
+
+
+        </section>
+
+  </section><br>
+  <section id="contact">
+    
+    <fieldset>
+      <h1  align="center"> <u> Contactez-nous</u></h1>
+    <p><u>Adresse:</u> GOMYCODE Hackerspace, 1 Place Tahar Haddad, 1 Tunis 1053</p>
+    <p><u>Téléphone :</u> <b>+216 39 143 900</b></p>
+    <p><u>E-mail:</u> <i style="color:blue;">hello@gomycode.com</i></p>
+  </fieldset>
+  </section>
+  <section id="gallery">
+    <h1  align="center"><u>Gallerie</u></h1>
+    <video controls width="650">
+
+        <source src="GoMyCode-1.mp4"
+                type="video/webm">
+    
+        <source src="GoMyCode-1.mp4"
+                type="video/mp4">
+
+    </video>
+    <br>
+    <audio controls autoplay>
+        <source src="Rejoignez l’aventure GOMYCODE.ogg" type="audio/ogg">
+        <source src="Rejoignez l’aventure GOMYCODE.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      <br>
+  </section>
+    <!-- ts -->
+    
+       
+</body>
+<footer>
+ 
+  <p  align="center"> Copyright 2022 <b>GOMYCODE</b><small>©</small> </p>
+</footer>
+</html>
