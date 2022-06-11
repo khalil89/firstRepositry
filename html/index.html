@@ -6,29 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <style>
-      ul1 {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #000;
-      }
-      
-      li1 {
-        float: left;
-      }
-      
-      li1 a {
-        display: block;
-        color: #000;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-      li1 a:hover {
-        background-color: red;
-      }
+      <link href="style.css" rel="stylesheet" type="text/css">
+	  
       </style>
 </head>
 <body>
@@ -116,7 +95,7 @@
       </div>
       <div >
         <label >Numéro de téléphone: </label><br>
-        <input type="tel" min="8" max="20"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  required>
+        <input type="number"    required>
       </div>
       <div >
         <label >E-mail: </label><br>

@@ -1,0 +1,34 @@
+ul1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000;
+      }
+      
+      li1 {
+        float: left;
+      }
+      
+      li1 a {
+        display: block;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li1 a:hover {
+        background-color: red;
+      }
+	  
+	  <!-- inpute type number phone  -- >
+    input[type=number] {
+  -webkit-appearance: none;
+}
+	  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+	  
